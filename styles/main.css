@@ -1,0 +1,10 @@
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+  }
+  :root {
+    --bg-color: #080808;
+    --second-bg-color: #001005;
+    --text-color: white;
+    --main-color: #00ff51;
+  }

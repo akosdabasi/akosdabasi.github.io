@@ -1,0 +1,66 @@
+/* Reset.css */
+
+/* Box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margins and padding */
+html, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font and line height */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* List styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Anchor tags */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Form elements */
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset background color for body */
+body {
+    background-color: #fff;
+}
+
+/* Remove outline on focus for elements */
+*:focus {
+    outline: none;
+}
+
+/* Set border for form elements */
+input, textarea, button, select {
+    border: 1px solid #ccc;
+}
