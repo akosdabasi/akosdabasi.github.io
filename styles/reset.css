@@ -8,3 +8,20 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
+
+a {
+  color: inherit; /* Ensure links inherit color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* For Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
