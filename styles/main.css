@@ -128,6 +128,11 @@ section {
   text-align: center;
 }
 
+.card-info {
+  overflow: hidden;
+  max-height: 100%;
+}
+
 .card-description {
   text-align: center;
   padding: 2rem;
