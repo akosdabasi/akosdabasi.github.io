@@ -42,22 +42,41 @@ section {
 }
 
 /*images*/
-.prof-img img {
-  width: 32vw;
+.prof-img {
+  position: relative;
+}
+
+.prof-img::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
   border-radius: 50%;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 0, 0, 0) 30%,
+    #0de0508e 100%
+  );
   box-shadow: 0 0 25px var(--main-color);
   transition: 0.4s ease-in-out;
 }
 
-.prof-img img:hover {
+.prof-img:hover::after {
   box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color),
     0 0 100px var(--main-color);
+}
+
+.prof-img img {
+  width: 30vw;
+  border-radius: 50%;
 }
 
 /*buttons*/
 .btn {
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   background: var(--main-color);
   box-shadow: 0 0 15px var(--main-color);
   border-radius: 3rem;
